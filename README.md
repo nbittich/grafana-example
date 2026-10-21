@@ -39,7 +39,7 @@ docker compose exec -it curl bash -c "curl -sSL https://raw.githubusercontent.co
 ## MyNids (test all rules):
 
 ```
-docker compose exec curl bash -c "curl -sSL https://raw.githubusercontent.com/3CORESec/testmynids.org/master/tmNIDS -o /tmp/tmNIDS && chmod +x /tmp/tmNIDS && /tmp/tmNIDS -99"
+docker compose exec curl bash -c "curl -sSL https://raw.githubusercontent.com/3CORESec/testmynids.org/master/tmNIDS -o /tmp/tmNIDS && chmod +x /tmp/tmNIDS && /tmp/tmNIDS -16"
 ```
 
 ### Verify:
