@@ -33,7 +33,7 @@ docker compose exec curl curl -u user:user http://server-app/admin      # unauth
 ## Suricata alert:
 
 ```
-docker compose exec curl curl http://testmynids.org/uid/index.html
+docker compose exec -it curl bash -c "curl -sSL https://raw.githubusercontent.com/3CORESec/testmynids.org/master/tmNIDS -o /tmp/tmNIDS && chmod +x /tmp/tmNIDS && /tmp/tmNIDS"
 ```
 
 ## MyNids (test all rules):
